@@ -1,0 +1,19 @@
+.gridcontainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+    padding: 10px;
+    background-color: aqua;
+}
+.griditem{
+    background-color: brown;
+    border: 3px solid black;
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+@media (max-width:600px){
+    .gridcontainer{
+        background-color: blueviolet;
+        border-radius: 50px;
+    }
+}
